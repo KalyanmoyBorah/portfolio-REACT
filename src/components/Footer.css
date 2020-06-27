@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+   
+}
+
+.sociallink {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5vw;
+    color: black;
+}
+
+.sociallink:hover {
+    color: rgb(9, 205, 219);
+}

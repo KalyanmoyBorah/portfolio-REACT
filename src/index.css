@@ -1,0 +1,18 @@
+body {
+ background-color: #E9EDEF
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: local('BebasNeue'), url(./fonts/BebasNeue-Regular.ttf) format('truetype');
+  }
+
+@font-face {
+    font-family: 'InriaSerif';
+    src: local('InriaSerif'), url(./fonts/InriaSerif-Regular.ttf) format('truetype');
+  }  
+
+@font-face {
+    font-family: 'InriaSerifItalic';
+    src: local('InriaSerifItalic'), url(./fonts/InriaSerif-Italic.ttf) format('truetype');
+  }   

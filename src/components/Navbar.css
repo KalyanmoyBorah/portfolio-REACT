@@ -1,0 +1,86 @@
+.link {
+    color: black;
+    margin: 1vw;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s ease;
+    font-family: BebasNeue;
+    height: 25px;
+}
+
+
+.link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.mylogo {
+    width: 100%;
+    height: 100%;
+   
+}
+
+.head {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+}
+
+
+.nav {
+    
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.blog {
+  color: rgb(59, 95, 211);
+   
+}
+
+
+@media only screen and (max-width: 450px) {
+   .link {
+       margin: 2vw;
+   }
+  }
+
+
+  @media only screen and (max-width: 350px) {
+    .link {
+        margin: 2vw;
+    }
+
+    .linkheading {
+        font-size: 1rem;
+    }
+   }  
+
+
+   @media (max-width:1500px) and (min-width:1100px) {
+    
+    .linkheading {
+        font-size: 1.4rem;
+        
+    }
+
+    .aboutp {
+        font-size: 1.5rem;
+    }
+
+    
+
+
+    
+}
