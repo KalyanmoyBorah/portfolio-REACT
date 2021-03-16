@@ -17,10 +17,11 @@ const About = (props) => {
       <Zoom customLoading={loading} background="#1A1E23" color="white" />
       <div className="header">
         <h1 className="text">
-          KALYANMOY BORAH IS A PART OF THE SOFTWARE TEAM AT TECHVARIABLE.
+          KALYANMOY BORAH IS A PART OF THE SOFTWARE TEAM AT TESLA.
         </h1>
 
         <img
+          alt="logo"
           src={require(`../images/Myimages/kmb.jpg`)}
           onLoad={handleImageLoad}
           className="profilepic"
@@ -43,12 +44,14 @@ const About = (props) => {
         <div className="up">
           <div className="upinside">
             <img
+              alt="logo"
               src={require(`../images/Myimages/kmb1.jpg`)}
               className="collageimage"
             ></img>
           </div>
           <div className="upinside">
             <img
+              alt="logo"
               src={require(`../images/Myimages/kmb5.jpg`)}
               className="collageimage"
             ></img>
@@ -60,12 +63,14 @@ const About = (props) => {
             <div style={{ flex: 1, display: "flex" }}>
               <div style={{ flex: 1 }}>
                 <img
+                  alt="logo"
                   src={require(`../images/Myimages/kmb3.jpg`)}
                   className="smallimage"
                 ></img>
               </div>
               <div style={{ flex: 1 }}>
                 <img
+                  alt="logo"
                   src={require(`../images/Myimages/kmb4.jpg`)}
                   className="smallimage"
                 ></img>
@@ -74,12 +79,14 @@ const About = (props) => {
             <div style={{ flex: 1, display: "flex" }}>
               <div style={{ flex: 1 }}>
                 <img
+                  alt="logo"
                   src={require(`../images/Myimages/kmb2.jpg`)}
                   className="smallimage"
                 ></img>
               </div>
               <div style={{ flex: 1 }}>
                 <img
+                  alt="logo"
                   src={require(`../images/Myimages/kmb7.jpg`)}
                   className="smallimage"
                 ></img>
@@ -88,6 +95,7 @@ const About = (props) => {
           </div>
           <div className="upinside">
             <img
+              alt="logo"
               src={require(`../images/Myimages/kmb13.jpg`)}
               className="collageimage"
             ></img>
@@ -96,6 +104,7 @@ const About = (props) => {
         <div className="down">
           <div className="upinside">
             <img
+              alt="logo"
               src={require(`../images/Myimages/kmb8.jpg`)}
               className="collageimage"
             ></img>
@@ -106,6 +115,7 @@ const About = (props) => {
           >
             <div style={{ flex: 1 }}>
               <img
+                alt="logo"
                 src={require(`../images/Myimages/kmb6.jpg`)}
                 className="collageimage"
               ></img>
@@ -113,12 +123,14 @@ const About = (props) => {
             <div style={{ flex: 1, display: "flex" }}>
               <div style={{ flex: 1 }}>
                 <img
+                  alt="logo"
                   src={require(`../images/Myimages/kmb10.jpg`)}
                   className="smallimage"
                 ></img>
               </div>
               <div style={{ flex: 1 }}>
                 <img
+                  alt="logo"
                   src={require(`../images/Myimages/kmb11.jpg`)}
                   className="smallimage"
                 ></img>
@@ -127,12 +139,14 @@ const About = (props) => {
           </div>
           <div className="upinside">
             <img
+              alt="logo"
               src={require(`../images/Myimages/kmb9.jpg`)}
               className="collageimage"
             ></img>
           </div>
           <div className="upinside">
             <img
+              alt="logo"
               src={require(`../images/Myimages/kmb12.jpg`)}
               className="collageimage"
             ></img>
