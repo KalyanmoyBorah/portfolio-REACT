@@ -17,7 +17,7 @@ const About = (props) => {
       <Zoom customLoading={loading} background="#1A1E23" color="white" />
       <div className="header">
         <h1 className="text">
-          KALYANMOY BORAH IS A PART OF THE SOFTWARE TEAM AT TESLA.
+          KALYANMOY BORAH IS A PART OF THE SOFTWARE TEAM AT TECHVARIABLE.
         </h1>
 
         <img
