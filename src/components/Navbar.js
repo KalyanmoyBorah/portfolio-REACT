@@ -15,7 +15,7 @@ const navbar = (props) => {
       </NavLink>
       <p style={{ fontFamily: "InriaSerif" }} className="aboutp">
         Kalyanmoy Borah is a UI/UX Designer & Full-Stack Developer based in
-        Ahmedabad.
+        Guwahati.
       </p>
 
       <div className="links ">

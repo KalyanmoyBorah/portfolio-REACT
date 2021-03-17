@@ -12,7 +12,7 @@ function Portfolio() {
             <img
               alt="logo"
               src={require(`../images/projects/${project.image}`)}
-              className="logo"
+              className={project.type === "roboseum" ? "roboLogo" : "logo"}
             ></img>
             <div className="details">
               <h4 className="projectname" style={{ fontFamily: "BebasNeue" }}>
@@ -23,17 +23,19 @@ function Portfolio() {
                 {project.about}
               </p>
 
-              <h6 className="projectview">
-                <a
-                  style={{ fontFamily: "InriaSerif" }}
-                  className="view"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href={project.link}
-                >
-                  VIEW
-                </a>
-              </h6>
+              {project.link && (
+                <h6 className="projectview">
+                  <a
+                    style={{ fontFamily: "InriaSerif" }}
+                    className="view"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href={project.link}
+                  >
+                    VIEW
+                  </a>
+                </h6>
+              )}
             </div>
           </div>
         );
