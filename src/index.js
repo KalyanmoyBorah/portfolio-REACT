@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import './fonts/BebasNeue-Regular.ttf'
-import './fonts/InriaSerif-Regular.ttf'
-import './fonts/InriaSerif-Italic.ttf'
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import "./Utils/fonts/BebasNeue-Regular.ttf";
+import "./Utils/fonts/InriaSerif-Regular.ttf";
+import "./Utils/fonts/InriaSerif-Italic.ttf";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

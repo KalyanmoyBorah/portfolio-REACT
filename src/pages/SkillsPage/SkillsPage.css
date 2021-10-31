@@ -1,0 +1,60 @@
+.skills {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards {
+  background-color: rgb(255, 255, 255, 0.4);
+  padding: 3%;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.skillname {
+  padding-top: 5vh;
+  font-family: BebasNeue;
+  flex: 1;
+}
+
+.bar {
+  flex: 1;
+}
+
+.skillsdiv {
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .skillsdiv {
+    flex-wrap: wrap;
+    flex: 1;
+  }
+
+  .cards {
+    flex: 1;
+  }
+
+  .skillname {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .skillname {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .skillname {
+    font-size: 1.5rem;
+  }
+}

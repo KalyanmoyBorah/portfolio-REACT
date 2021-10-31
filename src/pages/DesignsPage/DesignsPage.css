@@ -1,0 +1,23 @@
+.designs {
+  margin-top: 10vh;
+  /* background-color: #e9edef; */
+}
+
+.allimages {
+  text-align: center;
+}
+
+.designimage {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: 80%;
+  box-shadow: 15px 15px 15px #000000a6;
+}
+
+@media only screen and (max-width: 450px) {
+  .designimage {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 85%;
+  }
+}
