@@ -15,15 +15,15 @@ const SkillsPage = (props) => {
         </div>
 
         <div className="cards">
-          <CircularProgressBar className="bar" stop={90} color="#43853D" />
-          <h5 className="skillname" style={{ color: "#43853D" }}>
+          <CircularProgressBar className="bar" stop={90} color="#800080" />
+          <h5 className="skillname" style={{ color: "#800080" }}>
             Node.js
           </h5>
         </div>
 
         <div className="cards">
-          <CircularProgressBar className="bar" stop={90} color="#F29111" />
-          <h5 className="skillname" style={{ color: "#F29111" }}>
+          <CircularProgressBar className="bar" stop={90} color="#000" />
+          <h5 className="skillname" style={{ color: "#000" }}>
             MySQL
           </h5>
         </div>
@@ -36,8 +36,8 @@ const SkillsPage = (props) => {
         </div>
 
         <div className="cards">
-          <CircularProgressBar className="bar" stop={80} color="#32e0c4" />
-          <h5 className="skillname" style={{ color: "#32e0c4" }}>
+          <CircularProgressBar className="bar" stop={80} color="#fff" />
+          <h5 className="skillname" style={{ color: "#fff" }}>
             React-Native
           </h5>
         </div>
